@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int verificaMaior(int a, int b, int c){
+  if(a>=b && b>=c)
+    return 1;
+  else
+    if(b>=a && a>=c)
+      return 2;
+    else
+      return 0;
+}
+
+
+int main(){
+  int a,b,c;
+  printf("A: ");
+  scanf("%i",&a);
+  printf("B: ");
+  scanf("%i",&b);
+  printf("C: ");
+  scanf("%i",&c);
+  if(verificaMaior(a,b,c)==1)
+   printf("A é o maior.");
+  else
+    if(verificaMaior(a,b,c)==2)
+      printf("B é o maior.");
+    else
+      printf("C é o maior.");
+  return 0;
+}
