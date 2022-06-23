@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+float encontraArea( float b, float h){
+  return (b * h);
+}
+int main(){
+ float b, h, medida;
+  printf("Digite a base: ");
+  scanf("%f", &b);
+  printf("Digite a altura: ");
+  scanf("%f", &h);
+  printf("Área do retangulo:  %.2f \n", encontraArea(b,h));
+  return 0;
+}

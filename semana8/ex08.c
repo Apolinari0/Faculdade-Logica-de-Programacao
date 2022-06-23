@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+float verificaMaior(float a, float b){
+  if(a>=b)
+    return 1;
+  else
+    return 0;
+}
+
+int main(){
+ float a,b;
+  printf("A: ");
+  scanf("%f",&a);
+  printf("B: ");
+  scanf("%f",&b);
+  if (verificaMaior(a,b)==1)
+    printf("A é o maior número. \n");
+  else
+    printf("B é o maior número.\n");
+  return 0;
+}
