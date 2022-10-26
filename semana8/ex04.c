@@ -7,7 +7,7 @@ float sNew(float s, float rj){
 
 int main(){
  float s,rj;
-  printf("Digite o slário:R$: ");
+  printf("Digite o salário:R$: ");
   scanf("%f",&s);
   printf("Porcentagem do reajuste salarial: ");
   scanf("%f",&rj);
